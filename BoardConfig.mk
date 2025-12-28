@@ -6,7 +6,7 @@
 #
 
 DEVICE_PATH := device/samsung/a16x
-
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
